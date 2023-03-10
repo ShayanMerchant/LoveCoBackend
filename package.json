@@ -1,0 +1,31 @@
+{
+  "name": "lovecobackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^1.29.4",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "joi": "^14.3.1",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.4",
+    "moment-timezone": "^0.5.39",
+    "mongoose": "^5.13.16",
+    "multer": "^1.4.5-lts.1",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@types/joi": "^17.2.3"
+  }
+}
